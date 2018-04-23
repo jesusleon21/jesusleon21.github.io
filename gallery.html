@@ -6,60 +6,239 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Portfolio - Jesus Leon</title>
     <!-- //////NEED FOR ZURB-EDIT FILE PATHS///// -->
-    <link rel="stylesheet" href="zurb/css/foundation.css">
-    <link rel="stylesheet" href="zurb/css/app.css">
-    <link rel="stylesheet" href="css/portfolio.css">
-
+    <link rel="stylesheet" href="../zurb/css/foundation.css">
+    <link rel="stylesheet" href="../zurb/css/app.css">
+    <link rel="stylesheet" href="../css/portfolio.css">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Source+Sans+Pro" rel="stylesheet">
     <!-- //////NEED FOR ZURB-EDIT FILE PATHS///// -->
   </head>
-  <body>
+  <header>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <main class="grid-container">
+
       <header class="grid-x grid-margin-x grid-padding-x">
-        <body>
-        <div id="myNav" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <div class="overlay-content">
-          <a href="about.html">About</a>
-          <a href="gallery.html">Gallery</a>
-
-        </div>
+        <section class="grid-x grid-margin-x grid-padding-x grid-margin-y grid-padding-y">
+        <div class="large-2 cell">
+        <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="portfolio.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="conract.html">Contact</a>
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
 </div>
+  <script>
+  function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+  }
 
-<h2>Fullscreen Overlay Nav Example</h2>
-<p>Click on the element below to open the fullscreen overlay navigation menu.</p>
-<p>In this example, the navigation menu will slide in, from left to right:</p>
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+  function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
 
-<script>
-function openNav() {
-    document.getElementById("myNav").style.width = "100%";
-}
+  <body>
 
-function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-}
-</script>
+    <div class="large-10 cell main center">
+      <div id="gallery" class="container-fluid">
+      <h1 style="text-align: center">Gallery</h1>
+    </div>
+  </div>
+</section>
+</header>
+</main>
+<section class="grid-x grid-margin-x grid-padding-x grid-y grid-margin-y grid-padding-y">
+<div class="large-12 cell">
+  <div id="gallery" class="container-fluid">
+<!-- MAIN (Center website) -->
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('photo')"> Photography</button>
+    <button class="btn" onclick="filterSelection('web')"> Web Design</button>
+    <button class="btn" onclick="filterSelection('art')"> Design</button>
+  </div>
+<!-- ////Photography Images/// -->
+  <div class="row">
 
-</body>
-      </header>
-      <section class="grid-x grid-margin-x grid-padding-x">
-        <div class="large-4 cell">
-          <h1>Jesus</h1>
-        </div>
-        <figure class="large-4 cell">
-          <img src="http://via.placeholder.com/3000x3000" class="img-circle" alt="Place Holder Image">
-        </figure>
-        <div class="large-4 cell">
-          <h1>Leon</h1>
-        </div>
-      </section>
+    <div class="column photo">
+    <div class="container">
+    <img src="../img/bw (1).jpg" alt="Photo" style="width:100%">
+    <div class="overlay">
+    <div class="text">Photography</div>
+    </div>
+    </div>
+    </div>
 
+    <div class="column photo">
+    <div class="container">
+    <img src="../img/bw (2).jpg" alt="Photo" style="width:100%">
+    <div class="overlay">
+    <div class="text">Photography</div>
+    </div>
+    </div>
+    </div>
+
+    <div class="column photo">
+    <div class="container">
+    <img src="../img/bw (3).jpg" alt="Photo" style="width:100%">
+    <div class="overlay">
+    <div class="text">Photography</div>
+    </div>
+    </div>
+    </div>
+
+    <div class="column photo">
+    <div class="container">
+    <img src="../img/bw (4).jpg" alt="Photo" style="width:100%">
+    <div class="overlay">
+    <div class="text">Photography</div>
+    </div>
+    </div>
+    </div>
+
+    <div class="column photo">
+    <div class="container">
+    <img src="../img/bw (5).jpg" alt="Photo" style="width:100%">
+    <div class="overlay">
+    <div class="text">Photography</div>
+    </div>
+    </div>
+    </div>
+
+    <div class="column photo">
+    <div class="container">
+    <img src="../img/bw (6).jpg" alt="Photo" style="width:100%">
+    <div class="overlay">
+    <div class="text">Photography</div>
+    </div>
+    </div>
+    </div>
+
+
+
+
+  </div>
+<!-- ////Close Photography Images/// -->
+  <!-- ////// WEB DESIGN IMAGES -->
+  <div class="row">
+
+    <div class="column web">
+    <div class="container">
+    <img src="../img/web (1).png" alt="Website" style="width:100%; height:250px;">
+    <div class="overlay">
+    <div class="text">Web Design</div>
+    </div>
+    </div>
+    </div>
+
+    <div class="column web">
+    <div class="container">
+    <img src="../img/web (2).png" alt="Website" style="width:100%; height:250px;">
+    <div class="overlay">
+    <div class="text">Web Design</div>
+    </div>
+    </div>
+    </div>
+
+    <div class="column web">
+    <div class="container">
+    <img src="../img/web (3).png" alt="Website" style="width:100%; height:250px;">
+    <div class="overlay">
+    <div class="text">Web Design</div>
+    </div>
+    </div>
+    </div>
+
+  </div>
+  <!-- //////CLOSE WEB DESIGN IMAGES -->
+  <!-- ///////DESIGN IMAGES//// -->
+  <div class="row">
+
+    <div class="column art">
+    <div class="container">
+    <img src="../img/persp3.jpg" alt="Design" style="width:100%; height:250px">
+    <div class="overlay">
+    <div class="text">Design</div>
+    </div>
+    </div>
+    </div>
+
+    <div class="column art">
+    <div class="container">
+    <img src="../img/design1.jpg" alt="Design"  style="width:100%; height:250px">
+    <div class="overlay">
+    <div class="text">Design</div>
+    </div>
+    </div>
+    </div>
+
+    <div class="column art">
+    <div class="container">
+    <img src="../img/project3(3).jpg" alt="Design" style="width:100%; height:250px">
+    <div class="overlay">
+    <div class="text">Design</div>
+    </div>
+    </div>
+    </div>
+  </div>
+  </div>
+</div>
+</section>
+<!-- //////CLOSE DESIGN IMAGES//// -->
+  <script>
+  filterSelection("all")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("column");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+    }
+  }
+
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+
+
+  // Add active class to the current button (highlight it)
+  var btnContainer = document.getElementById("myBtnContainer");
+  var btns = btnContainer.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function(){
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+  </script>
+
+<!-- END GRID -->
 
     <!-- //////NEED FOR ZURB-EDIT FILE PATHS///// -->
-    <script src="zurb/js/vendor/jquery.js"></script>
-    <script src="zurb/js/vendor/what-input.js"></script>
-    <script src="zurb/js/vendor/foundation.js"></script>
-    <script src="zurb/js/app.js"></script>
+    <script src="../zurb/js/vendor/jquery.js"></script>
+    <script src="../zurb/js/vendor/what-input.js"></script>
+    <script src="../zurb/js/vendor/foundation.js"></script>
+    <script src="../zurb/js/app.js"></script>
     <!-- //////NEED FOR ZURB-EDIT FILE PATHS///// -->
   </body>
 </html>
