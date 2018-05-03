@@ -1,0 +1,168 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buon Appetito - Home</title>
+         <!--!!!!!! need for zurb. edit file paths!!!!! -->
+    <link rel="stylesheet" href="zurb/css/foundation.css">
+    <link rel="stylesheet" href="zurb/css/app.css">
+         <!--!!!!!! need for zurb. edit file paths!!!!! -->
+    <link rel="stylesheet" href="css/redesign.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway" rel="stylesheet">
+  </head>
+  <body>
+<!-- zurb responsive nav bar -->
+<div class="title-bar" data-responsive-toggle="main-nav-animated-menu" data-hide-for="large">
+  <button class="menu-icon" type="button" data-toggle="main-nav-animated-menu"></button>
+  <div class="title-bar-title">Menu</div>
+</div>
+
+<nav class="top-bar" id="main-nav-animated-menu">
+  <div class="top-bar-left">
+    <ul class="dropdown menu vertical medium-horizontal menu" data-responsive-menu= "drilldown medium-dropdown" data-auto-height="true" data-animate-height="true">
+      <a href="index.html"><li class="menu-text"><img src="img/logo.png" alt="text logo"></li></a>
+      <li><a href="starters.html">Menu</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="reservation.html">Reservation</a></li>
+    </ul>
+  </div>
+</nav>
+<!-- zurb responsive nav bar -->
+
+
+    <main class="grid-container">     <!-- top button javascript -->
+      <header class="grid-x grid-padding-x grid-margin-x">
+          <div id="timeDiv"></div>
+
+      </header>
+    <!-- row 1 -->
+      <section class="grid-x grid-padding-x grid-padding-y">  <!-- row 1 -->
+        <figure class="large-12 cell">
+          <div class="columns">
+            <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+              <ul class="orbit-container">
+                <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                <li class="is-active orbit-slide">
+                  <img class="orbit-image" src="img/feast.jpeg" alt="#">
+
+                </li>
+                <li class="orbit-slide">
+                  <img class="orbit-image" src="img/bread.jpg" alt="#">
+
+                </li>
+                <li class="orbit-slide">
+                  <img class="orbit-image" src="img/cheesy.jpg" alt="#">
+                  <!-- <figcaption class="orbit-caption">Buon Appetitio takes pride in our woodfire oven!</figcaption> -->
+                </li>
+              </ul>
+          <!-- <nav class="orbit-bullets">
+                <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+                <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button> -->
+
+          </nav>
+        </div>
+      </div>
+
+        </figure>
+
+      </section>
+      <section class="grid-x grid-padding-x grid-padding-y"> <!-- row 2 -->
+        <figure class="large-4 cell">
+        </figure>
+        <figure class="large-4 cell">
+
+        </figure>
+        <figure class="large-4 cell">
+
+        </figure>
+
+      </section>
+
+      <section class="grid-x grid-padding-x grid-padding-y"> <!-- row 3 -->
+          <figure class="large-6 cell">
+            <h3>A little About Buon Appetito</h3>
+            <p>We offer Three locations in the Bay Area, Benicia, Hayward & Oakley.
+              Our restaurants offers contemporary Italian cuisine in a charming atmosphere.
+              Our Hayward Restaurant is in the heart of downtown & offers a full bar service.
+              We have recently expanded our dining area with a brand new room and
+              outside patio dining. We also have a hot pizza oven,
+              come try some of our delicious homemade pizzas.
+              Our New Oakley location is ready to serve you with a large private banquet
+              room for all your special occasions.
+              We offer homemade bread, pastas and desserts.
+              We also have daily Lunch & Dinner Chef Specials.
+              Dine in or Take Out.
+              Hope to see you soon!</p>
+
+
+          </figure>
+          <figure class="large-4 cell">
+          </figure>
+
+          <figure class="large-2 cell">  <!-- time button -->
+            <label class="viewOpen" for="modal-state">View Hours&nbsp;&nbsp;<i class="fa fa-clock-o"></i></label>
+            <input type="checkbox" name="modal-state" id="modal-state">
+            <div class="modal-overlay">
+              <label for="modal-state" class="modal-overlay-close"></label>
+              <div class="modal">
+                <label class="button-close" for="modal-state"><i class="fa fa-times"></i></label>
+                <h2>We're Open At These Times</h2>
+                <div id="Wednesday" class="dateTime">
+                  <div class="day">Wednesday</div>
+                  <div class="time">11am - 9pm</div>
+                </div>
+                <br>
+                <div id="Thursday" class="dateTime">
+                  <div class="day">Thursday</div>
+                  <div class="time">11am - 9pm</div>
+                </div>
+                <br>
+                <div id="Friday" class="dateTime">
+                  <div class="day">Friday</div>
+                  <div class="time">11am - 11pm</div>
+                </div>
+                <br>
+                <div id="Saturday" class="dateTime">
+                  <div class="day">Saturday</div>
+                  <div class="time">11am - 11pm</div>
+                </div>
+                <br>
+                <div id="Sunday" class="dateTime">
+                  <div class="day">Sunday</div>
+                  <div class="time">11am - 11pm</div>
+                </div>
+                <br>
+                <div id="Monday" class="dateTime">
+                  <div class="day">Monday</div>
+                  <div class="time">11am - 9pm</div>
+                </div>
+                <br>
+                <div id="Tuesday" class="dateTime">
+                  <div class="day">Tuesday</div>
+                  <div class="time">11am - 9pm</div>
+                </div>
+              </div>
+            </div>
+
+
+          </figure>
+        </section>
+
+    </main>
+
+
+     <!--!!!!!! need for zurb - EDIT FILE PATHS!!!!! -->
+    <script src="zurb/js/vendor/jquery.js"></script>
+    <script src="zurb/js/vendor/what-input.js"></script>
+    <script src="zurb/js/vendor/foundation.js"></script>
+    <script src="zurb/js/app.js"></script>
+     <!--!!!!!! need for zurb - EDIT FILE PATHS!!!!! -->
+    <script src="js/datetime.js"></script>
+    <script src="js/openclose.js"></script>
+
+  </body>
+</html>

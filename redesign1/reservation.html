@@ -1,0 +1,91 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buon Appetito - Home</title>
+         <!--!!!!!! need for zurb. edit file paths!!!!! -->
+    <link rel="stylesheet" href="zurb/css/foundation.css">
+    <link rel="stylesheet" href="zurb/css/app.css">
+         <!--!!!!!! need for zurb. edit file paths!!!!! -->
+    <link rel="stylesheet" href="css/redesign.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway" rel="stylesheet">
+  </head>
+  <body>
+<!-- zurb responsive nav bar -->
+<div class="title-bar" data-responsive-toggle="main-nav-animated-menu" data-hide-for="large">
+  <button class="menu-icon" type="button" data-toggle="main-nav-animated-menu"></button>
+  <div class="title-bar-title">Menu</div>
+</div>
+
+<nav class="top-bar" id="main-nav-animated-menu">
+  <div class="top-bar-left">
+    <ul class="dropdown menu vertical medium-horizontal menu" data-responsive-menu= "drilldown medium-dropdown" data-auto-height="true" data-animate-height="true">
+      <a href="index.html"><li class="menu-text"><img src="img/logo.png" alt="text logo"></li></a>
+      <li><a href="starters.html">Menu</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="reservation.html">Reservation</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="grid-container">
+
+  <header class="grid-x grid-padding-x grid-margin-x grid-padding-y grid-margin-y">
+    <div class="large-12 cell">
+<form class="modal1-content" action="/action_page.php">
+
+  <div class="container">
+
+    <label for="name"><b></b></label>
+    <input type="text" placeholder="Enter Name" name="Name" required>
+
+    <select id="people" name="people">
+        <option value="people">1 Guest</option>
+        <option value="people">2 Guests</option>
+        <option value="people">3 Guests</option>
+        <option value="people">4 Guests</option>
+        <option value="people">5 Guests</option>
+        <option value="people">6 Guests</option>
+        <option value="people">7 Guests</option>
+        <option value="people">8 Guests</option>
+        <option value="people">9 Guests</option>
+
+
+
+       </select>
+    <label for="date"><b></b></label>
+    <input type="text" placeholder="Date" name="date" required>
+
+    <label for="time"><b></b></label>
+    <select id="location" name="location">
+        <option value="benicia">Benicia, CA</option>
+         <option value="hayward">Hayward, CA</option>
+         <option value="oakley">Oakley, CA</option>
+
+       </select>
+    <input type="text" placeholder="Time" name="time" required>
+    <div class="clearfix">
+      <button2 type="reserve"> <class="btn2"><a href="https://www.opentable.com/r/buon-appetito-hayward?p=2&sd=2018-05-01%2019%3A00">Reserve
+      </a></button2>
+  <div class="large-12 cell">
+  <br>
+      <p>For groups of more than 10, please contact us at 510-247-0120</p>
+    </div>
+  </div>
+</form>
+</main>
+</header>
+</div>
+
+     <!--!!!!!! need for zurb - EDIT FILE PATHS!!!!! -->
+    <script src="zurb/js/vendor/jquery.js"></script>
+    <script src="zurb/js/vendor/what-input.js"></script>
+    <script src="zurb/js/vendor/foundation.js"></script>
+    <script src="zurb/js/app.js"></script>
+     <!--!!!!!! need for zurb - EDIT FILE PATHS!!!!! -->
+    <script src="js/datetime.js"></script>
+
+  </body>
+</html>

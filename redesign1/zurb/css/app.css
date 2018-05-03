@@ -1,0 +1,44 @@
+ body{
+   background: rgb(238, 239, 203);
+ }
+
+li{
+  font-family: 'Raleway', sans-serif;
+}
+.drilldown a, {
+  padding: 0.7rem 1rem;
+  color: white;
+  background:rgb(145, 47, 47); } /* maroon */
+
+  .top-bar,
+  .top-bar ul {
+    background-color: rgb(145, 47, 47); }   /* maroon */
+
+    .top-bar li {
+      font-size: 16pt;
+      margin-top: auto;
+      margin-bottom: auto;
+
+    }
+    .top-bar img {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .drilldown a {
+      background-color: rgb(145, 47, 47);
+    }
+
+
+
+
+  .title-bar {
+    padding: 0.5rem;
+    background: rgb(145, 47, 47); /* maroon */
+    color: white;
+   }
+    .title-bar .menu-icon {
+      margin-left: 0.25rem;
+      margin-right: 0.25rem; }
+      .menu-text{
+        color: white;
+      }
