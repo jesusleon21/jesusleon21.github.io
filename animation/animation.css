@@ -1,0 +1,340 @@
+body {
+  background-color: black;
+  font-family: 'Lancelot', cursive;
+}
+h1 {
+font-family: 'Sancreek', cursive;
+font-size: 5em;
+text-align: center;
+color: white;
+}
+h3 {
+      font-family: 'Lancelot', cursive;
+      font-size: 3em;
+      text-align: center;
+      color: seagreen;
+}
+p {
+  font-family: 'Lancelot', cursive;
+  text-align: center;
+  font-style: italic;
+  color: grey;
+  font-size: 2em;
+}
+a {
+  color: grey;
+}
+a:hover {
+  color: white;
+
+}
+h5 {
+  font-size: 25px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ch-img-1 {
+	background-image: url(../img/record.png);
+}
+
+.ch-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	cursor: default;
+}
+.ch-info-wrap{
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	border-radius: 100%;
+	perspective: 1000px;
+	transition: all 0.4s ease-in-out;
+	top: 0px;
+	left: 400px;
+	box-shadow:
+		0 0 0 20px rgba(255,255,255,0.2),
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+
+}
+.ch-info{
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	border-radius: 100%;
+	transition: all 0.4s ease-in-out;
+	transform-style: preserve-3d;
+}
+.ch-info > div {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	background-position: center center;
+	backface-visibility: hidden;
+}
+.ch-info .ch-info-back {
+	transform: rotate3d(0,1,0,180deg);
+	background: #000;
+}
+
+.ch-info p {
+	color: seagreen;
+	padding: 90px 38px;
+	margin: 0 20px;
+	font-size: 35px;
+  font-weight: 800;
+text-align: center;
+}
+
+.ch-info p a {
+	display: block;
+	color: grey;
+  font-weight: lighter;
+	font-size: 25px;
+	letter-spacing: 1px;
+	padding-top: 4px;
+  font-family: 'Lancelot', cursive;
+}
+
+.ch-info p a:hover {
+	color: white;
+}
+.ch-item:hover .ch-info-wrap {
+	box-shadow:
+		0 0 0 0 rgba(255,255,255,0.8),
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+}
+
+.ch-item:hover .ch-info {
+	transform: rotate3d(0,1,0,-180deg);
+}
+/*ROTATE IMAGE  */
+body {
+  text-align: center;
+  padding: 100px 0 0 0;
+  color: #fff;
+  background: #1d1f20;
+}
+
+#loading {
+  -webkit-animation: rotation 20s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+      -webkit-transform: rotate(0deg);
+  }
+  to {
+      -webkit-transform: rotate(359deg);
+  }
+}
+/* Close Rotate */
+/*Shake Image*/
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+/* CLOSE SHAKE */
+/*fade text*/
+.animation-box {
+  width: 75%;
+  height: 27.5rem;
+  background-color: blue;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.animation-container {
+  width: 1000rem;
+  height: 30rem;
+}
+
+@keyframes topFadeOut {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    top: 25%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes bottomFadeOut {
+  0% {
+    position: absolute;
+    bottom: -5rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    bottom: 25%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+
+}
+
+@keyframes topFadeOutVertical {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    top: 45%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes rightFadeInOut {
+  0% {
+    position: absolute;
+    right: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    right: 10rem;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    right: 10rem;
+  }
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.first-text {
+  font-size: 4.4rem;
+  position: absolute;
+  left: 2.5rem;
+  top: 5rem;
+  opacity: 0;
+  animation-name: topFadeOut;
+  animation-duration: 5s;
+  color: grey;
+}
+
+.second-text {
+  font-size: 4.4rem;
+  position: absolute;
+  top: 8.5rem;
+  opacity: 0;
+  animation-name: rightFadeInOut;
+  animation-delay: 3s;
+  animation-duration: 6s;
+  color: grey;
+}
+
+.third-text {
+  font-size: 4.4rem;
+  position: absolute;
+  left: 5%;
+  top: 45%;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 7s;
+  animation-duration: 7.5s;
+  color: grey;
+  white-space: nowrap;
+}
+
+.fourth-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 10.5rem;
+  left: 0%;
+  opacity: 0;
+  color: grey;
+  animation-name: fadeInOut;
+  animation-delay: 8s;
+  animation-duration: 10s;
+}
+
+.fifth-text {
+  font-size: 4.4rem;
+  position: absolute;
+  left: 5%;
+  bottom: 25%;
+  opacity: 0;
+  color: grey;
+  animation-name: bottomFadeOut;
+  animation-delay: 12s;
+  animation-duration: 12s;
+}
+.sixth-text {
+  font-size: 5rem;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  bottom: 25%;
+  opacity: 0;
+  color: seagreen;
+  animation-name: topFadeOut;
+  animation-delay: 20s;
+  animation-duration: 20s;
+  text-align: center;
+
+}
+/* close fade text */
