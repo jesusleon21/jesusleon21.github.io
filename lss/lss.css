@@ -1,0 +1,206 @@
+body{
+  background-color: deepskyblue;
+
+}
+.background{
+  height:10000px;
+  width:300px;
+  position: static;
+}
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Squada One';
+  letter-spacing: 5px;
+  color: black;
+}
+h2 {
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Oleo Script';
+  letter-spacing: 5px;
+  color:seagreen;
+}
+.tri {
+  width: 100;
+  height: 100;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+
+  border-bottom: 150px solid seagreen;
+  margin-top: auto;
+  margin-left: 500px;
+}
+#submarine {
+  background-image: url("balloon.jpg");
+  position: absolute;
+  left: 54%;
+  margin-top: 200px;
+}
+.tri2 {
+  width: 130;
+  height: 130;
+  border-left: 180px solid transparent;
+  border-right: 180px solid transparent;
+
+  border-bottom: 180px solid seagreen;
+  margin-top: -90px;
+  margin-left: 470px;
+}
+.tri3 {
+  width: 160;
+  height: 160;
+  border-left: 210px solid transparent;
+  border-right: 210px solid transparent;
+
+  border-bottom: 210px solid seagreen;
+  margin-top: -100px;
+  margin-left: 440px;
+}
+.treebark {
+	width: 130px;
+	height: 10000px;
+	background: sienna;
+  margin-left: 580px;
+  position: static;
+
+}
+.hole{
+  position: absolute;
+  margin-top: 9820px;
+  margin-left: 590px;
+   display:block;
+   width: 110px;
+   height: 180px;
+   background-color: black;
+   border-radius:         60%  60%  10%  10%  / 60%   60%   0%  0%;
+ }
+.text2 {
+  width: 200px;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 8700px;
+  text-align: center;
+}
+.text3 {
+  position: absolute;
+  margin-top: -250px;
+  text-align: center;
+  margin-left: 50%;
+
+}
+.text4 {
+  width: 500px;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 7700px;
+  text-align: center;
+}
+.text5 {
+  width: 500px;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 6700px;
+}
+.text6 {
+  width: 500px;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 3700px;
+}
+.text7 {
+  width: 520px;
+  height: 1000px;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 4700px;
+}
+.text8 {
+  width: 500px;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 5700px;
+}
+.text9 {
+  width: 500px;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 2700px;
+}
+.text10 {
+  width: 500px;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 1700px;
+}
+.iframe {
+  text-align: center;
+  left: 65%;
+  margin-top: 1000px;
+  position: absolute;
+}
+.cloud {
+position: relative;
+margin-left: -10px;
+margin-top: 0px;
+}
+.cloud1 {
+  position: absolute;
+  margin-left: 700px;
+  margin-top: 0px;
+}
+.sign {
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 9579px;
+}
+.sign2 {
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 9612px;
+}
+.sign3 {
+  position: absolute;
+  margin-left: 7.2%;
+  margin-top: 8700px;
+}
+.sign4 {
+  position: absolute;
+  margin-left: 7.2%;
+  margin-top: 7700px;
+}
+.sign5 {
+  position: absolute;
+  margin-left: 7.2%;
+  margin-top: 6700px;
+}
+.sign6 {
+  position: absolute;
+  margin-left: 7.2%;
+  margin-top: 3700px;
+}
+.sign7 {
+  position: absolute;
+  margin-left: 7.2%;
+  margin-top: 4700px;
+}
+.sign8 {
+  position: absolute;
+  margin-left: 7.2%;
+  margin-top: 5700px;
+}
+.sign9 {
+  position: absolute;
+  margin-left: 7.2%;
+  margin-top: 2700px;
+}
+.sign10 {
+  position: absolute;
+  margin-left: 7.2%;
+  margin-top: 1000px;
+}
+.car {
+  position: absolute;
+  margin-left: 42.8%;
+  margin-top: 9854px;
+}
